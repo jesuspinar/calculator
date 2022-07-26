@@ -1,0 +1,50 @@
+
+html{
+  font-family: 'Courier New', Courier, monospace;
+  height: 100vh;
+  background-color: rgb(47, 47, 47);
+}
+a , input{
+  all: unset;
+  cursor: pointer;
+}
+input{
+  width: 80%;
+}
+a{
+  color: aliceblue;
+}
+
+main,.block_div,.block_input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  font-size: 24pt;
+}
+
+#calc_container{
+  width: 300px;
+  height: 340px;
+  background-color: royalblue;
+  border: 3px solid seashell;
+  border-radius: 1rem;
+
+}
+
+.block_div,.block_input{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.block_div{
+  margin: .9rem;
+}
+
+.block_input{
+  width: auto;
+  text-align: right;
+  background-color: aliceblue;
+  color: #000;
+  border-radius: 3rem;
+  margin: 1rem;
+}
