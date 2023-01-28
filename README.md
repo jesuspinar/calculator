@@ -1,4 +1,4 @@
 # CalculatorTs
-Learning typescript and building a simple Calculator
+Learn typescript and build a simple Calculator
 ## Preview
 ![Calculator preview](/preview.png "This is a preview.")
